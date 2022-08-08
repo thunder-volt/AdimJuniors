@@ -1,0 +1,123 @@
+.card-bdy {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 62px;
+    min-width: 300px;
+    width: 85%;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #39314F;
+    width: 593px;
+    height: 689px;
+    margin: 10px;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    padding: 21px;
+}
+
+.img {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url('../image/images.png');
+    background-position: center;
+    background-size: cover;
+    margin: 22px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* margin: -50px; */
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 300px;
+        min-width: 395px;
+        /* margin: 25px 16px -17px -31px; */
+        min-height: 722px;
+    }
+
+    .card-bdy {
+        width: auto;
+        width: 85%;
+    }
+
+    .container {
+        width: 89%;
+
+    }
+}
+
+.ttl {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: -10px 0px -10px 0px;
+    text-align: center;
+
+}
+
+.dsp {
+    color: #FFD8F2;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.extra p {
+    margin: -10px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+}
+
+.link div button {
+    color: #fff;
+    text-decoration: none;
+    height: 35px;
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #A05BA5;
+    border: 0px;
+
+}
+
+.link div {
+    height: 35px;
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #A05BA5;
+}
